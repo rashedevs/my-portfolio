@@ -88,7 +88,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#74787e]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 font-bold"
               target={`_blank`}
               href="https://drive.google.com/file/d/1T9rIWWOBckTQ7HX-byltuRchTSjDNveg/view?usp=sharing"
             >
@@ -97,7 +97,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 font-bold"
               target={`_blank`}
               href="https://www.linkedin.com/in/rashedevs/"
             >
@@ -106,7 +106,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 font-bold"
               target={`_blank`}
               href="https://github.com/rashedevs"
             >
@@ -115,7 +115,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#30a189]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 font-bold"
               href=""
             >
               <Link to="contact" smooth={true} duration={500}>
