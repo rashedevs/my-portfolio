@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h3 className="text-2xl font-bold text-yellow-400">Rased Uz Zaman</h3>
+        <h3 className="text-2xl font-bold text-pink-700 bg-slate-300 p-1 rounded">
+          Rased
+        </h3>
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
