@@ -24,9 +24,9 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4 font-semibold">
-            <span className="text-pink-600">// </span> These are the
+            <span className="text-pink-600">`// </span> These are the
             technologies I've worked with
-            <span className="text-yellow-400">..//</span>
+            <span className="text-yellow-400">.//</span>
           </p>
         </div>
 

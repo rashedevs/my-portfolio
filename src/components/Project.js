@@ -15,9 +15,9 @@ const Project = () => {
             Projects
           </p>
           <p className="py-4 font-semibold">
-            <span className="text-pink-600">// </span> Check out some of my
+            <span className="text-pink-600">`// </span> Check out some of my
             recent works
-            <span className="text-yellow-400">..//</span>
+            <span className="text-yellow-400">.//</span>
           </p>
         </div>
 

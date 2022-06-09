@@ -6,7 +6,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 font-bold text-xl">Hi, my name is</p>
+        <p className="text-yellow-400 py-2 font-bold text-xl">Hi, my name is</p>
         <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
           Rased Uz Zaman
         </h1>
@@ -23,7 +23,7 @@ const Home = () => {
             target={`_blank`}
             href="https://drive.google.com/file/d/1T9rIWWOBckTQ7HX-byltuRchTSjDNveg/view?usp=sharing"
           >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+            <button className="text-white font-semibold group border-2 px-6 py-3 my-8 flex items-center hover:bg-yellow-600 hover:border-yellow-600">
               My Resume
               <span className="group-hover:rotate-45 duration-100">
                 <HiArrowNarrowRight className="ml-3 " />

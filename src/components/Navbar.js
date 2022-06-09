@@ -16,28 +16,28 @@ const Navbar = () => {
         </Link>
       </div>
       {/* menu */}
-      <ul className="hidden md:flex">
-        <li>
+      <ul className="hidden font-bold md:flex">
+        <li className="hover:text-yellow-400">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-yellow-400">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-yellow-400">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-yellow-400">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="hover:text-yellow-400">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center font-bold"
         }
       >
         <li className="py-6 text-3xl">
@@ -117,15 +117,17 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#30a189]">
-            <a
+            {/* <a
               className="flex justify-between items-center w-full text-gray-300 font-bold"
               href=""
-            >
-              <Link to="contact" smooth={true} duration={500}>
-                Email
-              </Link>
+            > */}
+            <Link to="contact" smooth={true} duration={500}>
+              Email
+            </Link>
+            <Link to="contact" smooth={true} duration={500}>
               <HiOutlineMail size={30} />
-            </a>
+            </Link>
+            {/* </a> */}
           </li>
         </ul>
       </div>
