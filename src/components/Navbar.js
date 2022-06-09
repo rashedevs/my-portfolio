@@ -10,9 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="py-2">
+      <div>
         <Link to="home" smooth={true} duration={500}>
-          <img style={{ width: "280px" }} src={rashed} alt="logo" />
+          <img style={{ width: "250px" }} src={rashed} alt="logo" />
         </Link>
       </div>
       {/* menu */}
