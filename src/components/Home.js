@@ -15,8 +15,8 @@ const Home = () => {
         </h2>
         <p className="font-semibold text-[#8892b0] py-4 max-w-[700px]">
           I'm a full-stack developer specializing in building exceptional
-          digital experiences. Currently, I'm focused on building responsive
-          mern-stack web applications.
+          websites. Currently, I'm focused on building responsive mern-stack web
+          applications.
         </p>
         <div>
           <a

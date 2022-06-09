@@ -3,16 +3,17 @@ import { Link } from "react-scroll";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import rashed from "../assets/rashed.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <h3 className="text-2xl font-bold text-pink-700 bg-slate-300 p-1 rounded">
-          Rased
-        </h3>
+      <div className="py-2">
+        <Link to="home" smooth={true} duration={500}>
+          <img style={{ width: "280px" }} src={rashed} alt="logo" />
+        </Link>
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
