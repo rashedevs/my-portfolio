@@ -22,11 +22,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="hover:text-yellow-400">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
+
         <li className="hover:text-yellow-400">
           <Link to="skills" smooth={true} duration={500}>
             Skills
@@ -35,6 +31,11 @@ const Navbar = () => {
         <li className="hover:text-yellow-400">
           <Link to="projects" smooth={true} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li className="hover:text-yellow-400">
+          <Link to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="hover:text-yellow-400">
@@ -65,11 +66,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-3xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
+
         <li className="py-6 text-3xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
@@ -83,6 +80,11 @@ const Navbar = () => {
             duration={500}
           >
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-3xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="py-6 text-3xl">
