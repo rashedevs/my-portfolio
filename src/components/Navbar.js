@@ -9,7 +9,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062553] text-gray-300 shadow-md shadow-[#285081]">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img style={{ width: "250px" }} src={rashed} alt="logo" />
@@ -35,6 +35,11 @@ const Navbar = () => {
         <li className="hover:text-yellow-400">
           <Link to="projects" smooth={true} duration={500}>
             Projects
+          </Link>
+        </li>
+        <li className="hover:text-yellow-400">
+          <Link to="blogs" smooth={true} duration={500}>
+            Blogs
           </Link>
         </li>
         <li className="hover:text-yellow-400">
@@ -78,6 +83,11 @@ const Navbar = () => {
             duration={500}
           >
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-3xl">
+          <Link onClick={handleClick} to="blogs" smooth={true} duration={500}>
+            Blogs
           </Link>
         </li>
         <li className="py-6 text-3xl">
