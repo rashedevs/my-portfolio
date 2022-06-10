@@ -5,11 +5,14 @@ import mongo from "../assets/mongo.png";
 
 const Blogs = () => {
   return (
-    <div name="blogs" className="w-full h-full text-gray-300 bg-[#1d375f] pt-5">
+    <div
+      name="blogs"
+      className="w-full h-full text-gray-300 bg-[#1d375f] pt-5 pb-4"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-9">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-yellow-400 ">
-            Blogs
+            My Blogs
           </p>
           <p className="py-4 font-semibold">
             <span className="text-pink-600">`// </span> Some blogs I have

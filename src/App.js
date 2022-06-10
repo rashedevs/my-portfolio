@@ -11,9 +11,9 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home></Home>
-      <About></About>
       <Skills></Skills>
       <Project></Project>
+      <About></About>
       <Blogs></Blogs>
       <Contact></Contact>
     </div>
