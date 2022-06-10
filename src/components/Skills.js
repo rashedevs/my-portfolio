@@ -33,51 +33,51 @@ const Skills = () => {
         {/* shadow-[#040c16] */}
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={html} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={css} alt="HTML icon" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={bootstrap} alt="HTML icon" />
             <p className="my-4">BOOTSTRAP</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={tailwind} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={javascript} alt="HTML icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={react} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={git} alt="HTML icon" />
             <p className="my-4">GIT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={github} alt="HTML icon" />
             <p className="my-4">GITHUB</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={firebase} alt="HTML icon" />
             <p className="my-4">FIREBASE</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={node} alt="HTML icon" />
             <p className="my-4">NODE JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={express} alt="HTML icon" />
             <p className="my-4">EXPRESS JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={mongo} alt="HTML icon" />
             <p className="my-4">MONGO DB</p>
           </div>
