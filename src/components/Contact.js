@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -16,8 +17,8 @@ const Contact = () => {
             Wanna Reach Me?
           </p>
           <p className="py-4 text-gray-300 font-semibold">
-            <span className="text-pink-600">`// </span> Shoot the send button
-            now
+            <span className="text-pink-600">`// </span>Type your message & shoot
+            the send button now
             <span className="text-yellow-400">.//</span>
           </p>
         </div>
@@ -39,8 +40,11 @@ const Contact = () => {
           rows="7"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 font-semibold hover:bg-yellow-600 hover:border-yellow-600 px-6 py-2 my-8 mx-auto flex items-center rounded">
+        <button className="text-lg text-white border-2 font-semibold hover:bg-yellow-600 hover:border-yellow-600 px-6 py-2 my-8 mx-auto flex items-center rounded">
           Send Now
+          <span className="group-hover:rotate-0 duration-100">
+            <HiOutlineMail className="ml-3" />
+          </span>
         </button>
       </form>
     </div>

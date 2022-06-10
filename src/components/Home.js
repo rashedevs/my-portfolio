@@ -1,6 +1,6 @@
 import React from "react";
 import code from "../assets/code.png";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiDocumentDownload } from "react-icons/hi";
 
 const Home = () => {
   return (
@@ -35,8 +35,8 @@ const Home = () => {
               >
                 <button className="text-lg text-white font-semibold group border-2 px-6 py-2 my-8 flex items-center rounded hover:bg-yellow-600 hover:border-yellow-600">
                   My Resume
-                  <span className="group-hover:rotate-45 duration-100">
-                    <HiArrowNarrowRight className="ml-3 " />
+                  <span className="group-hover:rotate-0 duration-100">
+                    <HiDocumentDownload className="ml-3 " />
                   </span>
                 </button>
               </a>
