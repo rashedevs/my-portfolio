@@ -9,7 +9,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062553] text-gray-300 shadow-md shadow-[#285081]">
+    <div className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-[#062553] text-gray-300 shadow-md shadow-[#285081]">
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img style={{ width: "250px" }} src={rashed} alt="logo" />
