@@ -23,24 +23,24 @@ const Home = () => {
           <div className="sm:text-left text-4xl font-bold mt-9 ml-9">
             <div className=" mx-auto px-8 flex flex-col justify-center h-full">
               <p className="text-yellow-400 py-2 font-bold text-xl">
-                Hi all,{" "}
+                Hi,{" "}
                 <span className="text-5xl wave-emoji">{emoji("👋")}</span> my
                 name is
               </p>
               <Bounce>
                 <h1 className="text-3xl sm:text-5xl font-bold text-[#ccd6f6]">
-                  Rased Uz Zaman
+                  Rashed Uz Zaman
                 </h1>
               </Bounce>
               <Slide left>
                 <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
-                  A Javascript Developer🚀.
+                  A Software Engineer🚀.
                 </h2>
               </Slide>
 
               <p className="text-lg font-bold text-[#8892b0] py-4 max-w-[700px]">
-                A MERN Stack Developer, passionate about building Web
-                applications with JavaScript / Reactjs / Nodejs and some other
+                A Backend Engineer, passionate about building scalable
+                backends with Golang / Nodejs and some other
                 cool libraries and frameworks.
                 {/* I'm a full-stack developer specializing in building exceptional
                 websites. Currently, I'm focused on building responsive
